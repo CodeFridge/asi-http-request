@@ -161,13 +161,13 @@ static void logNetworkStatus_(const char *name, int line, NetworkStatus status) 
 	
 	switch (status) {
 		case kNotReachable:
-			statusString = @"Not Reachable";
+			//statusString = @"Not Reachable";
 			break;
 		case kReachableViaWWAN:
-			statusString = @"Reachable via WWAN";
+			//statusString = @"Reachable via WWAN";
 			break;
 		case kReachableViaWiFi:
-			statusString = @"Reachable via WiFi";
+			//statusString = @"Reachable via WiFi";
 			break;
 	}
 	
