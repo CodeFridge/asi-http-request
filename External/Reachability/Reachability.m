@@ -157,7 +157,7 @@ static void logReachabilityFlags_(const char *name, int line, SCNetworkReachabil
 
 static void logNetworkStatus_(const char *name, int line, NetworkStatus status) {
 	
-	NSString *statusString = nil;
+	//NSString *statusString = nil;
 	
 	switch (status) {
 		case kNotReachable:
