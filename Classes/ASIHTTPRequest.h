@@ -10,11 +10,11 @@
 //  Portions are based on the ImageClient example from Apple:
 //  See: http://developer.apple.com/samplecode/ImageClient/listing37.html
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #if TARGET_OS_IPHONE
 	#import <CFNetwork/CFNetwork.h>
 	#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_4_0
-	#import <UIKit/UIKit.h> // Necessary for background task support
+	@import UIKit; // Necessary for background task support
 	#endif
 #endif
 

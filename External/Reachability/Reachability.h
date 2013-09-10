@@ -103,7 +103,7 @@
  A multiple convenience test methods have been added.
  */
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <netinet/in.h>
 

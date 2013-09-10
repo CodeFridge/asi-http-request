@@ -6,7 +6,7 @@
 //  Copyright 2011 All-Seeing Interactive. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "ASITestCase.h"
 
 @interface ASIWebPageRequestTests : ASITestCase {

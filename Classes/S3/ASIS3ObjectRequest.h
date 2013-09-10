@@ -7,7 +7,7 @@
 //
 //  Use an ASIS3ObjectRequest to fetch, upload, copy and delete objects on Amazon S3
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "ASIS3Request.h"
 
 // Constants for storage class

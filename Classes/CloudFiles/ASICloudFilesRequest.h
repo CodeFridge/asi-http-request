@@ -13,7 +13,7 @@
 // Cloud Files Developer Guide:
 // http://docs.rackspacecloud.com/servers/api/cs-devguide-latest.pdf
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "ASIHTTPRequest.h"
 
 

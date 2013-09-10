@@ -6,7 +6,7 @@
 //  Copyright 2010 All-Seeing Interactive. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import "ASICacheDelegate.h"
 
 @interface ASIDownloadCache : NSObject <ASICacheDelegate> {

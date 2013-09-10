@@ -6,7 +6,7 @@
 //  Copyright 2009 All-Seeing Interactive. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 #if TARGET_OS_IPHONE
 #import <GHUnitIOS/GHUnit.h>

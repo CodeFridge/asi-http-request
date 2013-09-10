@@ -8,7 +8,7 @@
 
 // Currently, these tests only work on iOS - it looks like the method for parsing the PKCS12 file would need to be ported
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 #import <Security/Security.h>
 #import "ASITestCase.h"
 

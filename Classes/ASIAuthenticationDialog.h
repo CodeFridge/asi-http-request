@@ -6,8 +6,8 @@
 //  Copyright 2009 All-Seeing Interactive. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+@import Foundation;
+@import UIKit;
 @class ASIHTTPRequest;
 
 typedef enum _ASIAuthenticationType {
